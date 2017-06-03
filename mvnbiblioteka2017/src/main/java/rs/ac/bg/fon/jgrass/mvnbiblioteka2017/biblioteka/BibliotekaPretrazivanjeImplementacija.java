@@ -12,12 +12,10 @@ public class BibliotekaPretrazivanjeImplementacija implements BibliotekaPretrazi
 			new LinkedList<Knjiga>();
 
 	
-	@Override
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, long isbn, String izdavac) {
 		return SOPronadjiKnjigu.izvrsi(naslov, autor, isbn, izdavac, knjige);
 	}
 
-	@Override
 	public void ucitajKnjige(String filepath) throws Exception {
 		knjige = SOUcitajKnjige.izvrsi(filepath);
 	}

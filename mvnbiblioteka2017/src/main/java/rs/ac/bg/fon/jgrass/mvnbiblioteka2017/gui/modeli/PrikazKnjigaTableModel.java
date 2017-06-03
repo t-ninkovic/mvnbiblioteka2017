@@ -23,17 +23,14 @@ public class PrikazKnjigaTableModel extends AbstractTableModel{
 		else
 			this.knjige = knjige;
 	}
-	@Override
 	public int getColumnCount() {
 		return kolone.length;
 	}
 
-	@Override
 	public int getRowCount() {
 		return knjige.size();
 	}
 
-	@Override
 	public Object getValueAt(int rowIndex, int columnIndex) {
 		Knjiga k = knjige.get(rowIndex);
 		switch (columnIndex) {

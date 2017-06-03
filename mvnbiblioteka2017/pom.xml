@@ -4,7 +4,7 @@
 
   <groupId>rs.ac.bg.fon.jgrass</groupId>
   <artifactId>mvnbiblioteka2017</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>mvnbiblioteka2017</name>
